@@ -1,37 +1,44 @@
+const {createApp} = Vue;
+
 createApp({
     data(){
         return{
             todoList : [
                 {
-                    'text' : '' ,
-                    'done' : ''
+                    'text' : 'Task1' ,
+                    'done' : true
 
                 },
 
                 {
-                    'text' : '' ,
-                    'done' : ''
+                    'text' : 'Task2' ,
+                    'done' : true
 
                 },
 
                 {
-                    'text' : '' ,
-                    'done' : ''
+                    'text' : 'Task3' ,
+                    'done' : true
 
                 },
 
                 {
-                    'text' : '' ,
-                    'done' : ''
+                    'text' : 'Task4' ,
+                    'done' : true
 
                 },
 
                 {
-                    'text' : '' ,
-                    'done' : ''
+                    'text' : 'Task5' ,
+                    'done' : true
 
                 }
             ]
         }
+    },
+
+    methods: {
+
     }
-})
+
+}).mount('#app')
