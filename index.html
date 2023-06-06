@@ -25,7 +25,7 @@
             <ul>
                 <li v-for = "(todoItem , index) in todoList">
                     <span class="todoItem" @click = "isTaskDoneFunction(index)" v-bind:class="isTaskDone" >{{todoItem.text}}</span>
-                    <span class="icon" @click = "removeTask(todoIndex)"><i class="fa-solid fa-xmark"></i></span>
+                    <span class="icon" @click = "removeTask(index)"><i class="fa-solid fa-xmark"></i></span>
                 </li>
 
             </ul>
