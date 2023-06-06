@@ -100,7 +100,9 @@ createApp({
 
             }
             this.todoList.push(newItem);
-            this.newElement = ''
+            this.newElement = {
+                
+            }
         }
 
     }
