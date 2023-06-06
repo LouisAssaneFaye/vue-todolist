@@ -101,8 +101,8 @@ createApp({
             }
             this.todoList.push(newItem);
             this.newElement = {
-                
-            }
+
+            } 
         }
 
     }
