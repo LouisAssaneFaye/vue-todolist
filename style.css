@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+span.true{
+    text-decoration: line-through;
+}
+
+span.icon{
+    margin-left: 3rem;
+}
+
+ul i:last-child{
+    margin-right: 1.5rem;
+}
+
+button.button{
+    width: 3rem;
+    height: 1rem;
+    background-color: green;
+}
+
