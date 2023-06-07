@@ -77,10 +77,10 @@ createApp({
     methods: {
         isTaskDoneFunction(index){
             if(this.todoList[index].done === true) {
-                this.isTaskDone = true,
+                this.isTaskDone = 'true',
                 console.log(this.isTaskDone)
             } else {
-                this.isTaskDone = false,
+                this.isTaskDone = 'false',
                 console.log(this.isTaskDone)
             }
         },
@@ -96,7 +96,7 @@ createApp({
         },
 
         addNewElement(newItem){
-            if(this.newElement === ''){
+            if(this.newElement.text === ''){
 
             }
             this.todoList.push(newItem);
